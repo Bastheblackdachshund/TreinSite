@@ -22,7 +22,6 @@ body {
 }
 
 .center {
-    margin-top: 20px;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -61,11 +60,30 @@ body {
 }
 
 .image {
-    box-shadow: 0 0 10px rgb(89 89 89);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+    width: auto;
+    box-shadow: 0 0 10px rgb(254 221 4);
 }
 
+.NameWheels {
+    font-size: 70px;
+    margin-top: 70px;
+}
 
 h1 {
     text-align: center;
     color: aliceblue;
+}
+
+h2 {
+    text-align: center;
+    color: aliceblue;
+}
+
+h3 {
+    text-align: center;
+    color: rgb(254 221 4);
 }
