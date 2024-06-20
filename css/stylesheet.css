@@ -20,6 +20,13 @@ body {
     z-index: 1;
 }
 
+#BUTTON {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    background-color: rgb(189, 161, 77);
+    color: rgb(0, 0, 0);
+}
+
 .center {
     display: block;
     margin-left: auto;
@@ -69,6 +76,14 @@ body {
     box-shadow: 0 0 10px rgb(254 221 4);
 }
 
+.imagesmol {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
 .silkscreen-regular {
     font-family: "Silkscreen", sans-serif;
     font-weight: 400;
@@ -98,6 +113,17 @@ body {
     text-align: center;
 }
 
+.blockStart {
+    display: block;
+    width: 100%;
+    border: none;
+    background-color: #04AA6D;
+    padding: 14px 28px;
+    font-size: 16px;
+    cursor: pointer;
+    text-align: center;
+}
+
 h1 {
     text-align: center;
     color: aliceblue;
@@ -111,4 +137,12 @@ h2 {
 h3 {
     text-align: center;
     color: rgb(254 221 4);
+}
+
+h4 {
+    margin-right: 100px;
+    margin-left: 100px;
+    text-align: center;
+    color: aliceblue;
+    font-size: small;
 }
