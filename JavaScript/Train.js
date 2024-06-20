@@ -30,6 +30,9 @@ onclick = function (e) {
             localStorage.setItem(Front_LS, "Red");
             Result();
             break;
+        case "IDK":
+            window.location.href = "Homepage.html";
+            break;
     }
 };
 
@@ -37,7 +40,6 @@ function Result() {
     const wheel = localStorage.getItem(Wheel_LS);
     const cockpit = localStorage.getItem(Cockpit_LS);
     const front = localStorage.getItem(Front_LS);
-    alert(wheel + cockpit + front);
     if (wheel == "Red" && cockpit == "Red" && front == "Red") {
         window.location.href = "ResultRRR.html";
     }
