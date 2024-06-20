@@ -31,7 +31,7 @@ onclick = function (e) {
             Result();
             break;
         case "IDK":
-            window.location.href = "Homepage.html";
+            window.location.href = "index.html";
             break;
     }
 };
