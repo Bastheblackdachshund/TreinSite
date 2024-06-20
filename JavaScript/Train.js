@@ -64,6 +64,6 @@ function Result() {
     else if (wheel == "Black" && cockpit == "Red" && front == "Black") {
         window.location.href = "ResultBRB.html";
     }
-    else { window.location.href = "Homepage.html"; }
+    else { window.location.href = "index.html"; }
 }
 
